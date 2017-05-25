@@ -1,0 +1,17 @@
+h1 {
+  background-color: blue;
+  color: red;
+}
+
+p {
+  border: 5px solid red;
+}
+
+.page-content {
+  background-color: yellow;
+}
+
+#unique-p-tag {
+  background-color: black;
+  color: white;
+}
