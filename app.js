@@ -24,3 +24,17 @@ if (answer3.toLowerCase() === 'yes') {
 } else {
   alert('No worries. Thank you tho!');
 }
+
+var answer4 = prompt('And now a non-alcoholic related question. Does his job normally have him traveling all over the place?')
+if (answer4.toLowerCase() === 'yes') {
+  alert('You would be correct. 6 states to be exact. Not fun.');
+} else {
+  alert('Incorrect. He is usually traveling, covering 6 states.');
+}
+
+var answer5 = prompt('With all that traveling, do you think he\'s seen some cool places?')
+if (answer5.toLowerCase() === 'yes') {
+  alert('Honestly, he doesn\'t go there for scenery, so, no.');
+} else {
+  alert('You would be correct. In and out, no stopping.');
+}
