@@ -31,7 +31,7 @@ if (answer4.toLowerCase() === 'yes') {
 } else {
   alert('Incorrect. He is usually traveling, covering 6 states.');
 }
-//comment for test purposes
+
 var answer5 = prompt('With all that traveling, do you think he\'s seen some cool places?')
 if (answer5.toLowerCase() === 'yes') {
   alert('Honestly, he doesn\'t go there for scenery, so, no.');
