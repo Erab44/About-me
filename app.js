@@ -38,3 +38,10 @@ if (answer5.toLowerCase() === 'yes') {
 } else {
   alert('You would be correct. In and out, no stopping.');
 }
+
+var answer6 = prompt('Last pop-up! Does Jeff stay busy?')
+if (answer6.toLowerCase() === 'yes') {
+  alert('Depends on your definition of busy...');
+} else {
+  alert('Depends on your definition of busy...');
+}
