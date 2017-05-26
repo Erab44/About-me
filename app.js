@@ -19,7 +19,7 @@ if (answer2.toLowerCase() === 'yes') {
 
 var answer3 = prompt('And since he does not drink, he will need volunteers to occasionally test the taste and quality. Are you a willing volunteer for tasting?')
 if (answer3.toLowerCase() === 'yes') {
-  alert('Excellent! You\'ll be put on the list');
+  alert('Excellent! You\'ll be put on the list. Or ask him about sometime...');
   console.log(user + ' ' + answer3);
 } else {
   alert('No worries. Thank you tho!');
