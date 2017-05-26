@@ -1,9 +1,8 @@
 'use strict';
 
-var confirmed = confirm('Are you ready to rock and roll!?');
-
-if(confirmed === true){
-  console.log('The user is ready!');
+var answer1 = prompt('This is a Yes or No answer, please reply with a yes or no. Does Jeff partake in alcohol?');
+if (answer1.toLowerCase() === 'yes') {
+  alert('Incorrect! Jeff does not partake.');
 } else {
-  console.log('The user said they were not ready... Sucks for you. Here we go!');
+  alert('Correct!');
 }
