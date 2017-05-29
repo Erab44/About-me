@@ -3,7 +3,7 @@
 var user = prompt('What is your name?');
   console.log('The user\'s name is ' + user);
 
-var answer1 = prompt('This is a Yes or No answer, please reply with a yes or no. Does Jeff partake in alcohol?');
+var answer1 = prompt('These are Yes or No answers, so please reply with a yes or no. Does Jeff partake in alcohol?');
 if (answer1.toLowerCase() === 'yes') {
   alert('Incorrect! Jeff does not partake.');
 } else {
