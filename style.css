@@ -3,7 +3,11 @@ h1 {
   font-family: Arial;
 }
 
+body {
+  background-color: #c2d6d6
+}
 p {
+  background-color: #66cc66
 
 }
 
@@ -13,5 +17,5 @@ p {
 }
 
 em {
-  color: brown;
+  color: #662200;
 }
