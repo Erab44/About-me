@@ -3,7 +3,7 @@
 var user = prompt('What is your name?');
   console.log('The user\'s name is ' + user);
 
-var answer1 = prompt('These are Yes or No answers, so please reply with a yes or no. Does Jeff partake in alcohol?');
+var answer1 = prompt('Hello ' + user + ', these are Yes or No answers, so please reply with a yes or no. Does Jeff partake in alcohol?');
 if (answer1.toLowerCase() === 'yes') {
   alert('Incorrect! Jeff does not partake.');
 } else {
@@ -43,5 +43,16 @@ var answer6 = prompt('Last pop-up! Does Jeff stay busy?')
 if (answer6.toLowerCase() === 'yes') {
   alert('Depends on your definition of busy...');
 } else {
-  alert('Depends on your definition of busy...');
+  alert('Not really.');
 }
+document.write('Q: Hello ' + user + ', these are Yes or No answers, so please reply with a yes or no. Does Jeff partake in alcohol?' + ' A: ' + answer1);
+
+document.write(' Q: In regards to the first question, would he make his own Whiskey?' + ' A: ' + answer2);
+
+document.write(' Q: And since he does not drink, he will need volunteers to occasionally test the taste and quality. Are you a willing volunteer for tasting?' + ' A: ' + answer3);
+
+document.write(' Q: And now a non-alcoholic related question. Does his job normally have him traveling all over the place?' + ' A: ' + answer4);
+
+document.write(' Q: With all that traveling, do you think he\'s seen some cool places?' + ' A: ' + answer5);
+
+document.write(' Q: Last pop-up! Does Jeff stay busy?' + ' A: ' + answer6);
