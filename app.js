@@ -45,6 +45,7 @@ if (answer6.toLowerCase() === 'yes') {
 } else {
   alert('Not really.');
 }
+
 document.write('Q: Hello ' + user + ', these are Yes or No answers, so please reply with a yes or no. Does Jeff partake in alcohol?' + ' A: ' + answer1);
 
 document.write(' Q: In regards to the first question, would he make his own Whiskey?' + ' A: ' + answer2);
