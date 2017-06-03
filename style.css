@@ -1,17 +1,21 @@
 h1 {
-  background-color: blue;
-  color: red;
+  background-color: #3973ac;
+  font-family: Arial;
 }
 
+body {
+  background-color: #c2d6d6
+}
 p {
-  border: 5px solid red;
+  background-color: #66cc66
+
 }
 
-.page-content {
+.intro {
   background-color: yellow;
+  border: 2px solid red;
 }
 
-#unique-p-tag {
-  background-color: black;
-  color: white;
+em {
+  color: #662200;
 }
