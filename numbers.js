@@ -5,16 +5,11 @@ console.log(number);
 var turns = 4;
 var answer = parseInt(prompt('Guess a number between 1 and 50'));
 
-<<<<<<< HEAD
-while (turns > 0) {
-  if (answer > number) {
-=======
 while (turns >= 0) {
   if(turns === 0){
     alert('Sorry you ran out of turns');
     break;
   } else if (answer > number) {
->>>>>>> 36cd434e1f55a2fb56810a25e76966401527dd73
     turns--;
     //document.write('Sorry, too high! Try again.');
     var answer = parseInt(prompt('Your number was too high. Try again.'));
