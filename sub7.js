@@ -7,6 +7,7 @@ var rounds = 6;
 while(rounds >= 0) {
   for(var i = 0; i < cities.length; i++){
     if(guess.toLowerCase() === cities[i]){
+      console.log(i);
       alert('Correct! I did live there!');
       break;
     } else {
