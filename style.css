@@ -19,3 +19,12 @@ p {
 em {
   color: #662200;
 }
+
+h3 {
+  font-size: 12px;
+}
+
+.a:hover {
+  background-color: #5200cc;
+  color: white;
+}
