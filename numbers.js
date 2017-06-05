@@ -25,3 +25,4 @@ while (turns >= 0) {
     break;
   }
 }
+document.write('The secret number was ' + number);
