@@ -17,7 +17,7 @@ if (answer2.toLowerCase() === 'yes') {
   alert('Negative. He is planning to. Soon.');
 }
 
-var answer3 = prompt('And since he does not drink, he will need volunteers to occasionally test the taste and quality. Are you a willing volunteer for tasting?')
+var answer3 = prompt('And since he does not drink, he will need volunteers to occasionally test the taste and quality. Are you a willing volunteer for tasting?');
 if (answer3.toLowerCase() === 'yes') {
   alert('Excellent! You\'ll be put on the list. Or ask him about sometime...');
   console.log(user + ' ' + answer3);
@@ -25,21 +25,21 @@ if (answer3.toLowerCase() === 'yes') {
   alert('No worries. Thank you tho!');
 }
 
-var answer4 = prompt('And now a non-alcoholic related question. Does his job normally have him traveling all over the place?')
+var answer4 = prompt('And now a non-alcoholic related question. Does his job normally have him traveling all over the place?');
 if (answer4.toLowerCase() === 'yes') {
   alert('You would be correct. 6 states to be exact. Not fun.');
 } else {
   alert('Incorrect. He is usually traveling, covering 6 states.');
 }
 
-var answer5 = prompt('With all that traveling, do you think he\'s seen some cool places?')
+var answer5 = prompt('With all that traveling, do you think he\'s seen some cool places?');
 if (answer5.toLowerCase() === 'yes') {
   alert('Honestly, he doesn\'t go there for scenery, so, no.');
 } else {
   alert('You would be correct. In and out, no stopping.');
 }
 
-var answer6 = prompt('Last pop-up! Does Jeff stay busy?')
+var answer6 = prompt('Last pop-up! Does Jeff stay busy?');
 if (answer6.toLowerCase() === 'yes') {
   alert('Depends on your definition of busy...');
 } else {
