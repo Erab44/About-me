@@ -10,9 +10,9 @@ while(rounds >= 0) {
       alert('Sorry, you ran out of turns');
       break;
     } else if(guess.toLowerCase() === cities[i]){
+      rounds--;
       console.log([i]);
       alert('Correct! I did live there!');
-      break;
     } else {
       rounds--;
       alert('Negative. Try again. Only a few more options.');
