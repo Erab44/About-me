@@ -1,11 +1,11 @@
 'use strict';
 
-var number = Math.floor((Math.random() * 50) + 1);
-console.log(number);
-var turns = 4;
-var answer = parseInt(prompt('Guess a number between 1 and 50'));
-
 function numbersGuess() {
+  var number = Math.floor((Math.random() * 50) + 1);
+  console.log(number);
+  var turns = 4;
+  var answer = parseInt(prompt('Guess a number between 1 and 50'));
+
   while (turns >= 0) {
     if(turns === 0){
       alert('Sorry you ran out of turns');
@@ -29,4 +29,5 @@ function numbersGuess() {
 }
 
 numbersGuess();
+
 document.write('The secret number was ' + number);
