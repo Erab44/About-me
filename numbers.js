@@ -8,7 +8,7 @@ function numbersGuess() {
 
   while (turns >= 0) {
     if(turns === 0){
-      alert('Sorry you ran out of turns');
+      alert('Sorry you ran out of turns! The secret number was ' + number);
       break;
     } else if (answer > number) {
       turns--;
@@ -30,4 +30,4 @@ function numbersGuess() {
 
 numbersGuess();
 
-document.write('The secret number was ' + number);
+//document.write('The secret number was ' + number);
